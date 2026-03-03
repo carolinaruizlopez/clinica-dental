@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Lopez-Llamas Dental | Clínica Dental en Gijón</title>
+    <meta name="description" content="Clínica Lopez-Llamas Dental en Gijón. Especialistas en estética y salud dental avanzada.">
+    <meta name="keywords" content="dentista Gijón, clínica dental, Lopez-Llamas, ortodoncia Gijón, estética dental, clínica gijón">
+    <meta name="author" content="Lopez-Llamas Dental">
+    <link rel="canonical" href="https://www.tu-dominio-final.com/">
+
+    <style>
+        /* CONFIGURACIÓN DE COLORES PERSONALIZADOS */
+        :root {
+            --color-principal: #C2A385;   /* Marrón claro elegante */
+            --color-secundario: #FAF9F6;  /* Blanco roto / Crema */
+            --color-texto: #4A443F;       /* Marrón muy oscuro para el texto */
+            --blanco: #ffffff;
+        }
+
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            margin: 0;
+            background-color: var(--color-secundario);
+            color: var(--color-texto);
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: var(--color-principal);
+            color: var(--blanco);
+            padding: 4rem 1rem;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.8rem;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        header p {
+            margin-top: 0.5rem;
+            font-weight: 300;
+            opacity: 0.9;
+        }
+
+        /* Estructura de dos columnas */
+        .layout-horizontal {
+            display: flex;
+            gap: 2.5rem;
+            max-width: 1100px;
+            margin: 3rem auto;
+            padding: 0 1.5rem;
+            align-items: flex-start;
+        }
+
+        section {
+            background: var(--blanco);
+            padding: 2.5rem;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.03);
+        }
+
+        .columna-datos {
+            flex: 1;
+        }
+
+        .columna-formulario {
+            flex: 1.5;
+        }
+
+        h2 {
+            color: var(--color-principal);
+            margin-top: 0;
+            font-size: 1.8rem;
+            border-bottom: 2px solid var(--color-secundario);
+            padding-bottom: 1rem;
+        }
+
+        .info-item {
+            margin-bottom: 1.8rem;
+        }
+
+        .info-item strong {
+            color: var(--color-principal);
+            display: block;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            margin-bottom: 0.3rem;
+        }
+
+        /* Formulario Estilizado */
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        input, textarea {
+            padding: 12px;
+            margin: 10px 0;
+            border: 1px solid #E0DED8;
+            border-radius: 8px;
+            font-size: 1rem;
+            background-color: #FDFDFD;
+            color: var(--color-texto);
+        }
+
+        input:focus, textarea:focus {
+            outline: none;
+            border-color: var(--color-principal);
+        }
+
+        button {
+            background-color: var(--color-principal);
+            color: white;
+            border: none;
+            padding: 15px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1.1rem;
+            font-weight: bold;
+            margin-top: 1rem;
+            transition: all 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #A68A6D; /* Un tono más oscuro al pasar el ratón */
+            transform: translateY(-2px);
+        }
+
+        /* Responsive para móviles */
+        @media (max-width: 850px) {
+            .layout-horizontal {
+                flex-direction: column;
+            }
+            header h1 { font-size: 2rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Lopez-Llamas Dental</h1>
+        <p>Estética y Salud Dental Avanzada</p>
+    </header>
+
+    <div class="layout-horizontal">
+        
+        <section class="columna-datos">
+            <h2>Contacto</h2>
+            <div class="info-item">
+                <strong>Dirección</strong>
+                Calle San Antonio, 9 <br>Gijón
+            </div>
+            <div class="info-item">
+                <strong>Teléfono</strong>
+                +34 912 345 678
+            </div>
+            <div class="info-item">
+                <strong>Horario de atención</strong>
+                Lunes a Viernes: 09:30 - 20:30<br>
+            </div>
+            <div class="info-item">
+                <strong>Correo Electrónico</strong>
+                hola@lopezllamasdental.com
+            </div>
+        </section>
+
+        <section class="columna-formulario">
+            <h2>Contacta con nosotros</h2>
+            <form>
+                <input type="text" placeholder="Nombre completo" required>
+                <input type="tel" placeholder="Teléfono de contacto" required>
+                <input type="email" placeholder="Correo electrónico (opcional)">
+                <textarea rows="5" placeholder="¿En qué podemos ayudarte? (Ortodoncia, limpieza, revisión...)"></textarea>
+                <button type="submit">Enviar Mensaje</button>
+            </form>
+        </section>
+
+    </div>
+
+</body>
+</html>
